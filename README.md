@@ -1,3 +1,29 @@
+# ここにタイトルを入れる
+  簡易ブログ（CRUD機能のみ）
+## DEMO
+
+  - デプロイしている場合はURLを記入（任意）
+
+## 紹介と使い方
+
+  ブログのようにタイトルと内容をかける
+
+## 工夫した点
+
+  - supabase, prismaでバックエンドの構築をしてみた
+  - nextでの構築は慣れていたので、firebase以外の環境下で開発をしてみた
+
+## 苦戦した点
+
+  - 環境構築
+  - プラグインをエディターに入れていないと、prismaのスキーマが動かないので、この辺は勉強になった。
+  - prisma上で、JSで書くようにDBを設計できるのは非常に良い。マイクロサービスには向いている。
+  - toastというUIを初めて使ったが、編集の際にバグが出てしまうので、ここを修正しないといけない（多分書き方が悪い）
+
+## 参考にした web サイトなど
+
+  - 
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
